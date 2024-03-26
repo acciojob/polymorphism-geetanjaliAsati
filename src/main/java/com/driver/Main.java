@@ -7,6 +7,7 @@ public class Main {
         System.out.println(p.product(1, 2, 3));
         System.out.println(p.product(1d, 2d));
     }
+
     static class Product {
         public int product(int x, int y) {
             return x + y;
